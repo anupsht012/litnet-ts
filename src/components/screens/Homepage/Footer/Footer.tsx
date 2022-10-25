@@ -95,7 +95,7 @@ const Footer = () => {
       <div className="company ">
          <div className="container">
            <div className="name">
-           LitNet Pvt. Ltd
+           LitNet Pvt. Ltd @copyright Anup Shrestha
            </div>
          </div>
           </div>
