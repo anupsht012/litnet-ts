@@ -10,7 +10,7 @@ console.log(articles);
   return (
     <section className='trending'>
       <div className="container">
-        <div className="title">Trending on LitNet</div>
+        <div className="trending-title">Trending on LitNet</div>
         <div className="all-cards">
          {
             articles.map((article) =>(
