@@ -1,0 +1,138 @@
+// @import "../../../../../global.scss";
+
+.hero {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 90vh;
+    // overflow: hidden;
+    .container {
+        display: flex;
+
+        // background-color: #e8505b;
+        .image-area {
+            width: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+         
+        }
+
+        .text-area {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 50%;
+            .text-contents {
+                display: flex;
+                flex-direction: column;
+                align-items: flex-start;
+
+                height: 282px;
+                justify-content: center;
+
+                .title {
+                    /* Desktop / Display Large Bold */
+
+                    font-family: Poppins;
+                    font-style: normal;
+                    font-weight: bold;
+                    font-size: 64px;
+                    line-height: 66px;
+                    /* identical to box height, or 103% */
+
+                    display: flex;
+                    align-items: center;
+                    text-align: center;
+                    letter-spacing: 1px;
+
+                    /* Grayscale / Body */
+
+                    color: #4e4b66;
+                }
+
+                .para {
+                    font-family: Poppins;
+                    font-style: normal;
+                    font-weight: 300;
+                    font-size: 96px;
+                    line-height: 66px;
+                    /* identical to box height, or 69% */
+                    width: 100%;
+                    display: flex;
+                    align-items: center;
+                    text-align: center;
+                    letter-spacing: 1px;
+
+                    /* Grayscale / Body */
+
+                    color: #4e4b66;
+                    margin: 7vh 0;
+                }
+                .buttons {
+                    display: flex;
+
+                    .hero-btn1 {
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: center;
+                        align-items: center;
+                        padding: 1.5rem 3.2rem;
+
+                        outline: none;
+                        border: none;
+                        // width: 200px;
+                        // height: 64px;
+                        /* Primary/Default */
+
+                        background: #e8505b;
+                        border-radius: 40px;
+
+                        /* Inside auto layout */
+                        cursor: pointer;
+                        color: #f7f5f5;
+                        font-weight: 600;
+                        font-size: 1rem;
+                        // line-height: 24px;
+                        margin-right: 2vw;
+                        >*{
+                            text-decoration: none;
+                            color: white;
+                        }
+                    }
+                    .hero-btn {
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: center;
+                        align-items: center;
+                        padding: 1.5rem 3.2rem;
+
+
+                        // position: static;
+                        // width: 200px;
+                        // height: 64px;
+                        // left: 0px;
+                        // top: 0px;
+                        outline: none;
+                        border: none;
+                        /* Primary/Default */
+
+                        background: #f7f5f5;
+                        border-radius: 40px;
+                        font-weight: 600;
+                        font-size: 1rem;
+                        // line-height: 24px;
+                        /* Inside auto layout */
+                        cursor: pointer;
+                        color: #4e4b66;
+
+                        >*{
+                            text-decoration: none;
+                            color: black;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,159 @@
+.login {
+    height: 100vh;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    ::before {
+        position: absolute;
+        content: "";
+        top: -118px;
+        background-color: red;
+        right: -118px;
+        height: 449px;
+        width: 449px;
+        border-radius: 50%;
+        z-index: -1;
+    }
+    ::after {
+        position: absolute;
+        content: "";
+        bottom: -130px;
+        background-color: black;
+        left: -115px;
+        height: 315px;
+        width: 315px;
+        border-radius: 50%;
+        z-index: -1;
+    }
+    .content {
+        display: flex;
+        height: 90vh;
+        .image-area {
+            width: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .login-area {
+            width: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            .user-login {
+                width: 31vw;
+                height: 75vh;
+                border-radius: 32px;
+
+                border: 2px solid rgb(230, 229, 229);
+                border-radius: 32px;
+                // padding: 20px;
+                background: #fcfcfc;
+
+                .login-div {
+                    // width: 480px;
+                    //    border: 2px solid gray;
+                    //     border-radius: 32px;
+                    padding: 30px;
+                }
+
+                .login-title {
+                    .login-title-name {
+                        font-size: 2rem;
+                        display: flex;
+                        justify-content: flex-start;
+                        // line-height: 34px;
+                    }
+
+                    .bar {
+                        width: 4vw;
+                        height: 1vh;
+                        background: #e8505b;
+                        border-radius: 300px;
+                        margin-top: 1vh;
+                    }
+                }
+                .input-field {
+                    padding: 1.9rem 0;
+                    div {
+                        :nth-child(2) {
+                            margin: 1vh 1wq;
+                        }
+                        :nth-child(3) {
+                        
+                            margin-bottom: 2vh;
+                        }
+
+                        height: 7vh;
+                        // width: 100%;
+                        background-color: #eff0f6;
+                        border-radius: 16px;
+                        display: flex;
+                        align-items: center;
+                        padding-left: 1rem;
+                        margin: 1rem 0;
+
+                        input {
+                            outline: none;
+                            border: none;
+                            background-color: inherit;
+                            margin-left: 1rem;
+                            text-indent: 0.6rem;
+                            font-size: .9rem;
+                            width: 100%;
+                        }
+                    }
+                }
+                .forget {
+                    display: flex;
+                    justify-content: end;
+                    // width: 417px;
+                    font-family: Poppins;
+                    font-style: normal;
+                    font-weight: 600;
+                    font-size: .9rem;
+                    // line-height: 24px;
+                }
+
+                .button {
+                    padding: .6rem ;
+                    // width: 100%;
+                    background: #e8505b;
+                    border-radius: 40px;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    // width: 407px;
+                    margin-top: 20vh;
+                    .login-btn {
+                        outline: none;
+                        border: none;
+                        background-color: inherit;
+                        color: white;
+                        cursor: pointer;
+                        font-size: 1rem;
+                    }
+                }
+
+                .create {
+                    font-size: 1rem;
+                    // line-height: 24px;
+                    /* identical to box height, or 171% */
+                    font-family: Poppins;
+                    font-style: normal;
+                    font-weight: 600;
+                    display: flex;
+                    align-items: center;
+                    text-align: center;
+                    // letter-spacing: 0.75px;
+                    justify-content: center;
+                    // width: 407px;
+                    margin-top: .5rem;
+                    /* Grayscale / Body */
+
+                    color: #4e4b66;
+                }
+            }
+        }
+    }
+}

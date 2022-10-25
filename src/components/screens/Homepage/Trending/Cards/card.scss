@@ -1,0 +1,112 @@
+.cards {
+    align-items: flex-start;
+    padding: .9rem;
+    /* position: static; */
+    width: 24vw;
+    height: 18vh;
+    /* left: 0px; */
+    /* top: 0px; */
+    background: #ffffff;
+    box-shadow: 0px 32px 64px rgb(17, 17, 17 / 0.8);
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border-radius: 8px;
+    // margin-top: 32px;
+    .sub-title {
+        display: flex;
+        justify-content: start;
+        align-items: center;
+        background-color: #ffffff;
+        .num {
+            font-family: Poppins;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 2.2rem;
+            // line-height: 34px;
+            display: flex;
+            align-items: center;
+            text-align: center;
+            // letter-spacing: 1px;
+            color: #6e7191;
+            background-color: inherit;
+            margin-right: 1rem;
+        }
+        .card-title {
+            font-family: Poppins;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 2rem;
+            // line-height: 38px;
+            display: flex;
+            align-items: center;
+            text-align: center;
+            // letter-spacing: 0.75px;
+            color: #4e4b66;
+            background-color: inherit;
+        }
+    }
+
+    .stars {
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        padding-left: 3rem;
+        // margin-left: 16px;
+        // position: static;
+        width: 12vw;
+        // height: 10vh;
+        // left: 0px;
+        // top: 43px;
+        background-color: inherit;
+
+        /* Inside auto layout */
+
+        // flex: none;
+        // order: 1;
+        // flex-grow: 0;
+        margin: 5px 0px;
+        > * {
+            margin: 0 5px;
+            font-size: 1.6rem;
+        }
+        .fa-star {
+            color: #ffd789;
+            border-radius: 0.75px;
+            background-color: inherit;
+        }
+    }
+
+    .name {
+        display: flex;
+        width: 100%;
+        background-color: inherit;
+
+        justify-content: space-around;
+        .author {
+            display: flex;
+            align-items: center;
+            background-color: inherit;
+
+            span {
+                background-color: inherit;
+                display: flex;
+                align-items: center;
+                p {
+                    background-color: inherit;
+                    font-size: .9rem;
+                }
+                img {
+                    padding-right: .5rem;
+                    background-color: inherit;
+                }
+            }
+        }
+        .time {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: inherit;
+            font-size: .8rem;
+
+        }
+    }
+}

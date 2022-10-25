@@ -1,0 +1,42 @@
+.trending {
+    // margin-top: 200px;
+    .container {
+        display: flex;
+        flex-direction: column;
+        .title {
+            font-family: Poppins;
+            font-style: normal;
+            font-weight: 600;
+            font-size: 2rem;
+            // line-height: 34px;
+            /* identical to box height, or 189% */
+
+            display: flex;
+            align-items: center;
+            text-align: center;
+            letter-spacing: 0.75px;
+
+            /* Grayscale / Body */
+
+            color: #4e4b66;
+
+            /* Inside auto layout */
+
+            flex: none;
+            order: 0;
+            flex-grow: 0;
+            margin-top: 12rem ;
+        }
+
+        .all-cards {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            // height: 50vh;
+            > * {
+                margin: .8rem 0;
+            }
+        }
+    }
+}

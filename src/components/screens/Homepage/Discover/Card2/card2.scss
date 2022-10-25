@@ -1,0 +1,57 @@
+.cards2 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 11px;
+    width: 47vw;
+    height: 26vh;
+
+    background: #ffffff;
+    /* Drop Shadow Small */
+
+    box-shadow: 0px 8px 16px rgba(17, 17, 17, 0.06);
+
+    /* Inside auto layout */
+
+    margin: .8rem 0;
+
+    .person {
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+        width: 100%;
+        justify-content: space-between;
+        .author {
+            display: flex;
+            align-items: center;
+            font-size: .9rem;
+            justify-content: space-between;
+        }  
+        .time{
+            font-size: .8rem;
+        }
+    }
+    .subject-title{
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 1.6rem;
+        // line-height: 38px;
+      
+    }
+    .subject-review{
+        font-size: 1rem;
+    }
+    .stars{
+        padding-top: 1.3rem;
+        > * {
+            margin: 0 .5rem;
+            font-size: 1.5rem;
+        }
+     .fa-star{
+        color: #ffd789;
+        border-radius: 0.75px;
+        background-color: inherit;
+     }
+    }
+}

@@ -1,0 +1,32 @@
+.writers{
+    display: flex;
+    justify-content: space-between;
+    // width: 502px;
+    // height: 67px;
+    padding: 1rem 0;
+    background: #FFFFFF;
+    margin:1.3rem 0;
+/* Drop Shadow Small */
+align-items: center;
+box-shadow: 0px 8px 16px rgba(17, 17, 17, 0.06);
+p{
+    font-size: .8rem;
+}
+    .author{
+        display: flex;
+        align-items: center;
+        font-size: .9rem;
+        padding-left: .8rem;
+    }
+    .writer{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        margin-left: .5rem;
+    }
+
+    p{
+        padding-right: .5rem;
+
+    }
+}

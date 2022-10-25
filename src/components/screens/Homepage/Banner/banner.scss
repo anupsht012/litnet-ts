@@ -1,0 +1,101 @@
+.banner {
+    height: 100vh;
+    background-color: #4e4b66;
+    display: flex;
+    .container {
+        display: flex;
+
+        .text-area {
+            display: flex;
+            // justify-content: center;
+            align-items: center;
+            width: 50%;
+            .text-contents {
+                display: flex;
+                flex-direction: column;
+                align-items: flex-start;
+                height: 282px;
+                // justify-content: center;
+
+                .title {
+                    /* Desktop / Display Large Bold */
+
+                    font-family: Poppins;
+                    font-style: normal;
+                    font-weight: bold;
+                    font-size: 48px;
+                    line-height: 50px;
+                    /* identical to box height, or 103% */
+
+                    display: flex;
+                    align-items: center;
+                    text-align: center;
+                    letter-spacing: 1px;
+
+                    /* Grayscale / Body */
+                    color: #fcfcfc;
+                }
+
+                .para {
+                    font-family: Poppins;
+                    font-style: normal;
+                    font-weight: 300;
+                    font-size: 72px;
+                    line-height: 66px;
+                    /* identical to box height, or 69% */
+                    width: 100%;
+                    display: flex;
+                    align-items: center;
+                    text-align: center;
+                    letter-spacing: 1px;
+
+                    /* Grayscale / Body */
+
+                    color: #fcfcfc;
+
+                    margin: 53px 0px;
+                }
+                .buttons {
+                    display: flex;
+
+                    .hero-btn1 {
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: center;
+                        align-items: center;
+                        padding: 18px 32px;
+
+                        outline: none;
+                        border: none;
+                        width: 236px;
+                        height: 64px;
+                        /* Primary/Default */
+
+                        background: #e8505b;
+                        border-radius: 40px;
+
+                        /* Inside auto layout */
+                        cursor: pointer;
+                        color: #f7f5f5;
+                        font-weight: 600;
+                        font-size: 14px;
+                        line-height: 24px;
+                        margin: 0px 12px;
+                    }
+                }
+            }
+        }
+
+        .image-area {
+            width: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            img {
+                width: 517px;
+                // height: 136px;
+            }
+        }
+    }
+}
